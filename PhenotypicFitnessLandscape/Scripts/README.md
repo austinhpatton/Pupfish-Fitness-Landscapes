@@ -6,3 +6,6 @@ This function is a modification of the gam.vis function in mgcv - it simply is m
 
 ### Composite-MorphoGeno-AdaptLandscape-Bootstrapping.R
 This script explores the extent to which the shape of the fitness landscape estimated using composite fitness as the response, and morphology/gitness associated snps as predictors, is robust to sampling uncertainty.
+
+### EstimatePlot-AdaptiveLandscapes.R
+Fits generalized additive models to estimate/visualize the three-dimensional adaptive landscape. 
