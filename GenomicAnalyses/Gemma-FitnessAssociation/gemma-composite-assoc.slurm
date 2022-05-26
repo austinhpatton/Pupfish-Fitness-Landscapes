@@ -11,7 +11,7 @@ cd /global/scratch/austinhpatton/fitnessGenomics/results/GEMMA
 PREFIX='/global/scratch/austinhpatton/fitnessGenomics/results/GEMMA'
 
 # Conduct Gemma LMM to test for associations between genotypes and composite fitness. 
-/global/home/users/austinhpatton/software/gemma-0.98.1 -bfile ${PREFIX}/Hybs-LinkageThinned -lmm 1 \
+/global/home/users/austinhpatton/software/gemma-0.98.1 -bfile ${PREFIX}/composite -lmm 1 \
 -k ./output/Hybs-LinkageThinned.cXX.txt \
 -c /global/home/users/austinhpatton/fitnessGenomics/popFiles/GEMMA-Covariates.txt \
--o Hybs-LinkageThinned-Surv-LMM-Linear
+-o Hybs-LinkageThinned-Composite-LMM-Linear
